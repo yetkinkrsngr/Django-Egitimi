@@ -4,4 +4,4 @@
 
 ## Html Dersleri ve sırası
 
--
+- 1.index.html açıklama satırı , başlıklar ve paragraflar , strong ve em , listeler iç içe listeler.
