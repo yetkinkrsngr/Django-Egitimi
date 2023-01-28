@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 
+    Emmet Yapısı:
+
+    + kardeş öğe
+    > içinde 
+    ^ yukarı çık
+    * kere oluştur
+    lorem coklu lorem
+    lorem2 2 lorem  kelime yaz
+    .class
+    # id 
+    {} özel yazı 
+    $ artan sayı 
+    ! Html5 sayfası 
+ -->
+    <!--    
+     h1>p  h1 içinde p oluştur.
+     -->
+    <h1>
+      <p></p>
+    </h1>
+    <!-- h1>p>{Emmet} h1 içinde p oluştur 1 emmet yaz -->
+    <h1>
+      <p>emmet</p>
+    </h1>
+    <!-- h1{lorem}+h2{lorem} h1 ve h2 elementi oluştur -->
+    <h1>lorem</h1>
+    <h2>lorem</h2>
+    <!-- h1>p>lorem1^^h2>p>lorem1  h1 içine p içinde lorem1 yazı yaz iki yukarı çık ve h2 içine p içine lorem1 yazı yaz-->
+    <h1>
+      <p>Lorem.</p>
+    </h1>
+    <h2>
+      <p>Lorem.</p>
+    </h2>
+    <!--
+        p*5>lorem1 tane p oluştur
+      -->
+    <p>Lorem.</p>
+    <p>Dolore!</p>
+    <p>Iste.</p>
+    <p>Temporibus?</p>
+    <p>Accusamus?</p>
+    <!-- $ işareti tek tek artırır
+        ul>li.item$*5 ul içine gir liste olustur 5 tane item calsı olustur her bir classı bir artır.
+       -->
+    <ul>
+      <li class="item1"></li>
+      <li class="item2"></li>
+      <li class="item3"></li>
+      <li class="item4"></li>
+      <li class="item5"></li>
+    </ul>
+    <!-- 
+        h$[title=item$]{Header $}*3
+        -->
+    <h1 title="item1">Header 1</h1>
+    <h2 title="item2">Header 2</h2>
+    <h3 title="item3">Header 3</h3>
+    <!-- 
+            h1>p.item$@-*5 tek tek çıkarır
+         -->
+    <h1>
+      <p class="item5"></p>
+      <p class="item4"></p>
+      <p class="item3"></p>
+      <p class="item2"></p>
+      <p class="item1"></p>
+    </h1>
+    <!-- 
+            h1.deneme.ikici-class.ucuncu-class
+            h1 içinde 3 ayrı class oluşturulur.
+          -->
+    <h1 class="deneme ikinci-class ucuncu-class"></h1>
+  </body>
+</html>
