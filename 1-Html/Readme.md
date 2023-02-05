@@ -17,3 +17,4 @@
 - 6. block level ve inline elementler
 
 - 7. semantik etiketler.
+- 8. bolum sonu çalışması
