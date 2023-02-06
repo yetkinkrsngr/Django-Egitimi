@@ -1,0 +1,13 @@
+# Github versiyon kontrol Nedir:
+-  Git adlı bir sürüm kontrol sistemini (VCS) barındıran bulut tabanlı bir hizmettir. 
+Geliştiricilerin, ilerlemelerini ayrıntılı olarak takip ederken ortak projelerde işbirliği yapmasına ve 
+değişiklikler yapmasına olanak tanır.
+- Sürüm kontrolü, bir dosyada veya bir dizi dosyada yapılan değişiklikleri 
+izlemeye ve yönetmeye yardımcı olan bir sistemdir. Ağırlıklı olarak yazılım mühendisleri tarafından 
+kaynak kodunda yapılan değişiklikleri izlemek için kullanılan sürüm kontrol sistemi, tüm değişiklikleri analiz etmelerini ve bir hata yapıldığında herhangi bir sonuç olmadan geri almalarını sağlar.
+
+- Başka bir deyişle, sürüm kontrolü, geliştiricilerin aynı anda projeler 
+üzerinde çalışmasına olanak tanır. Meslektaşlarının çalışmalarını ihlal etmeden veya 
+geciktirmeden ihtiyaç duydukları kadar değişiklik yapmalarını sağlar.
+
+
