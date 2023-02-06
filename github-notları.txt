@@ -10,4 +10,18 @@ kaynak kodunda yapılan değişiklikleri izlemek için kullanılan sürüm kontr
 üzerinde çalışmasına olanak tanır. Meslektaşlarının çalışmalarını ihlal etmeden veya 
 geciktirmeden ihtiyaç duydukları kadar değişiklik yapmalarını sağlar.
 
+kısaca update , delete geri alma , kime ne yaptı kontrol ederiz.
 
+ilk önce git crm indir sonra gitbash ac ve bilgisayara kendini tanıt.
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+
+daha sonra : tanıtmamız için dosyayı açtıktan sonra 
+git init komutunu bir kere kullanırız.
+
+git status 
+u: untracked takip edilmeyen
+m:modifaid değiştirilen
+
+.gitignore komuttu takip edilmesini istemediğimiz dosyaları ekleriz.
+gitignore.io sitesinden generate edebilir. .gitignore adında dosya oluşturabiliriz.
