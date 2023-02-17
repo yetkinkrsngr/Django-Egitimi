@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .title .info{
+            color:#e74c3c ;
+        }
+        .title.subtitle{
+            color: #e67e22;
+        }
+        .title >.subtitle{
+            color:#f39c12 ;
+        }
+        ul a{
+            color: #e74c3c;
+        }
+        ul >li>a{
+            color: #f39c12;
+        }
+        a:hover{
+            color:#2c3e50 ;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+        ilk özel kullanım şekli
+     -->
+    <h2 class="title">
+        h2 tagı
+        <p class="info">
+        p tagı
+        </p>
+    </h2>
+    <!-- ikinci kullanım -->
+    <h2 class="title subtitle">
+        h2 tagı
+    </h2>
+    <!--  
+        üçüncü kullanım
+     -->
+     <h2 class="title">Lorem ipsum dolor sit.<span class="subtitle">Lorem, ipsum.</span></h2>
+     <!-- 
+        4. kullanım
+      -->
+      <ul>
+        <a href="">Lorem, ipsum.</a>
+        <li><a href="">Lorem, ipsum.</a></li>
+        <li><a href="">Placeat, odit?</a></li>
+        <li><a href="">Quos, iure.</a></li>
+      </ul>
+</body>
+</html>
