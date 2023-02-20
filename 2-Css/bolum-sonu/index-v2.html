@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bolum Sonu Çalısmasi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Flow+Circular&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Flow Circular', cursive;
+        }
+        /* 
+        nav
+        */
+        .list-unstyled{
+            list-style: none;
+        }
+        .clear-fix{
+            clear: both;
+        }
+        nav>ul>li{
+            float: left;
+            width: 20%;
+            background-color: aqua;
+            
+
+        }
+        nav>ul>li>a{
+            display: block;
+            padding: 4px 10px;
+        }
+        nav>ul>li>a:hover{background-color: bisque;}
+        .container{
+            width: 1000px;
+            margin:0 auto;
+        }
+        /*  Left bar        */
+        /* .left{
+            padding-left: 25px;
+        } */
+        .left-bar{
+            background-color: #2c3e50;
+            width: 30%;
+            float: left;
+
+        }
+        .left-bar-links{padding: 0;}
+        .left-bar-links >li>a{
+            color: aliceblue;
+            display: block;
+            padding: 4px 20px;
+        }
+        .left-bar-links >li>a:hover{
+            background-color: #fff;
+            color: #2c3e50;
+        }
+        .content{
+            width: 70%;
+            float: left;
+            background-color: red;
+            height: 700px;
+        }
+        .card{
+            width: 26%;
+            margin-left:3%;
+            float: left;
+            margin-bottom: 20px;
+            background-color: azure;
+            min-height: 300px;
+        }
+        .button {
+            --color: #560bad;
+         font-family: inherit;
+         display: inline-block;
+         width: 8em;
+         height: 2.6em;
+         line-height: 2.5em;
+         margin: 20px;
+         position: relative;
+         overflow: hidden;
+         border: 2px solid var(--color);
+         transition: color .5s;
+         z-index: 1;
+         font-size: 17px;
+         border-radius: 6px;
+         font-weight: 500;
+         color: var(--color);
+        }
+
+        .button:before {
+         content: "";
+         position: absolute;
+         z-index: -1;
+         background: var(--color);
+         height: 150px;
+         width: 200px;
+         border-radius: 50%;
+        }
+
+        .button:hover {
+         color: #fff;
+        }
+
+        .button:before {
+         top: 100%;
+         left: 100%;
+         transition: all .7s;
+        }
+
+        .button:hover:before {
+         top: -30px;
+         left: -30px;
+        }
+
+        .button:active:before {
+         background: #3a0ca3;
+         transition: background 0s;
+        }
+
+    </style>
+</head>
+<body>
+<nav class="container">
+    <ul class="list-unstyled">
+        <li><a href="" class="button">item1</a></li>
+        <li><a href="" class="button">item2</a></li>
+        <li><a href="" class="button">item3</a></li>
+        <li><a href="" class="button">item4</a></li>
+        <li><a href="" class="button">item5</a></li>
+    </ul>
+</nav>
+<div class="clear-fix"></div>
+<div class="container">
+    <div class="left-bar">
+<ul class="list-unstyled left-bar-links">
+    <li class="left"  ><a href="" class="button">Lorem.</a></li>
+    <li class="left" ><a href="" class="button">Dolor!</a></li>
+    <li class="left" ><a href="" class="button">Ab!</a></li>
+    <li class="left" ><a href="" class="button">Quaerat!</a></li>
+    <li class="left" ><a href="" class="button">Quia!</a></li>
+    <li class="left" ><a href="" class="button">Dolorum?</a></li>
+    <li class="left" ><a href="" class="button">Accusantium?</a></li>
+    <li class="left" ><a href="" class="button">Nemo.</a></li>
+    <li class="left" ><a href="" class="button">Perferendis!</a></li>
+    <li class="left" ><a href="" class="button">Delectus?</a></li>
+</ul>
+    </div>
+    <div class="content">
+        <div class="card">Lorem, ipsum dolor.</div>
+        <div class="card">Incidunt, magni earum.</div>
+        <div class="card">Ad, eligendi eum.</div>
+        <div class="card">Nobis, eveniet illo.</div>
+    </div>
+</div>
+</body>
+</html>
