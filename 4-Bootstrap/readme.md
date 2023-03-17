@@ -9,3 +9,7 @@
 4. margin padding. 
 
 5. display görünüm örnekleri 
+
+6. offset ile boşluk
+
+7. order re order ne nerede hangi ekranda nasıl gözükecek.
