@@ -13,3 +13,6 @@
 6. offset ile boşluk
 
 7. order re order ne nerede hangi ekranda nasıl gözükecek.
+
+# Projeler
+1. projenin yapısı ve resim eklendi.
